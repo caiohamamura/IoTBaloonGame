@@ -93,6 +93,7 @@ function sendWS(obj) {
 //  MESSAGE HANDLER
 // ══════════════════════════════════════════════
 function handleMessage(msg) {
+  console.debug(msg);
   switch (msg.type) {
     case 'player_joined':   onPlayerJoined(msg);   break;
     case 'player_left':     onPlayerLeft(msg);     break;
