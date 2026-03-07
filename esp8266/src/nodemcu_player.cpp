@@ -16,7 +16,7 @@ const char* PLAYER_NAME  = "Caio";        // max 8 chars
 //  PINS
 // ──────────────────────────────────────────────
 const int PIN_LED = D1; // LED em Dreno
-const int PIN_BUTTON = D2;
+const int PIN_BUTTON = D6; // Botao em PULL_UP
 
 // ──────────────────────────────────────────────
 //  GLOBALS
