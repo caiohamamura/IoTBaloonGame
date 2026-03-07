@@ -223,7 +223,7 @@ async def handle_join(name: str):
     if name in state.players or len(state.players) >= MAX_PLAYERS:
         return
     state.players[name] = Player(name=name)
-    log.info(f"{name} jogador se juntou ao servidor")
+    log.info(f"Jogador {name} se juntou ao servidor")
     await browser_mgr.broadcast({"type": "player_joined", "name": name})
 
 
