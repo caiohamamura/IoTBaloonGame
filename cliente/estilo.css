@@ -245,7 +245,7 @@
     background: rgba(0,0,0,0.4);
     z-index: 10;
     border-bottom: 2px solid var(--border);
-    height: 48px;
+    height: 75px;
   }
 
   .hud-item {
